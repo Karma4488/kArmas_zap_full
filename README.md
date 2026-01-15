@@ -7,7 +7,7 @@ A brief description of your project.
 Instructions on how to install the project.
 
 ```bash
-# Example command for installation
+# pip install -r requirements.txt
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ Instructions on how to install the project.
 Instructions on how to use the project.
 
 ```bash
-# Example command for usage
+# python main.py
 ```
 
 ## License
