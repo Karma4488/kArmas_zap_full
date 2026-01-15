@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#!/usr/bin/env python3                                          # kArmas-ZAP FULL MODE + AUTH + JS (LOCAL/REMOTE) + REQ/RESP VIEWER
+# kArmas-ZAP FULL MODE + AUTH + JS (LOCAL/REMOTE) + REQ/RESP VIEWER
 # Passive + Active Audit Framework
 # Made in l0v3 bY kArmasec
 
@@ -45,7 +45,8 @@ def sanitize_headers(headers):
             clean[k] = v
         except UnicodeEncodeError:
             clean[k] = v.encode("utf-8", "ignore").decode("latin-1", "ignore")
-    return clean                                                
+    return clean
+
 # ─── DATABASE ────────────────────────────────────────────────────────────────
 db = sqlite3.connect("karmas_zap_full.db", check_same_thread=False)
 cur = db.cursor()
