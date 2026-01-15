@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#!/usr/bin/env python3                                          # kArmas-ZAP FULL MODE + AUTH + JS (LOCAL/REMOTE) + REQ/RESP VIEWER
+# kArmas-ZAP FULL MODE + AUTH + JS (LOCAL/REMOTE) + REQ/RESP VIEWER
 # Passive + Active Audit Framework
 # Made in l0v3 bY kArmasec
 
