@@ -6,7 +6,6 @@
 import requests
 import ssl
 import socket
-import sys
 import json
 import sqlite3
 import re
